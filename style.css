@@ -154,3 +154,18 @@ body {
      border-radius: 10px;
      box-shadow: 2px 2px;
  }
+
+ /* milestone */
+#milestone {
+    background: linear-gradient(to right ,#1B1F34 ,rgba(27, 31, 52, 0.1)),url(img/cover_2.jpg);
+        background-size: cover;
+    background-position:center;
+}
+#milestone h1 {
+    color: var(--brand);
+    font-size: 70px;
+}
+
+#milestone p {
+    font-size: 19px;
+}
