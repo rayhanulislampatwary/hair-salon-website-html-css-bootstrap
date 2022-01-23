@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg1: #151828;
+    --bg2: #1B1F34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+
+a {
+    color:var(--body);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+.link-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 600;
+    text-transform: uppercase;
+    left: 1px;
+}
+
+.link-more .icon {
+    transition: all 0.4s ease;
+}
+
+.link-more:hover .icon {
+    transform: translateX(8px);
+}
+
+body {
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+
+ h1,h2,h3,h4,h5,h6 {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+    
+    }
+ img {
+     width: 100%;
+ }
+
+ section {
+     padding-top: 160px;
+     padding-bottom: 160px;
+ }
+
+ /* navbar */
+.navbar {
+    background:linear-gradient(to bottom ,#1B1F34 ,rgba(27, 31, 52, 0.2));
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+ .nav-brand {
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 32px;
+ }
+
+ /* btn */
+.btn {
+    padding: 16px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.4s;
+
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+ /* Hero section */
+ #hero {
+     background: linear-gradient(to right ,#1B1F34 ,rgba(27, 31, 52, 0.1)),url(img/cover_1.jpg);
+     min-height: 100vh;
+     background-position: center;
+     background-size: cover;
+ }
+
+
+/* intro */
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.intro h6 {
+    color: var(--brand);
+}
+
+.intro p {
+    max-width: 600px;
+    margin: auto;
+}
+
+ /* about */
+ #about {
+    position: relative;
+ }
+#about::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: var(--brand);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+ #about h6 {
+     color: var(--brand);
+ }
+
+ #about h1 {
+     margin-top: 16px;
+     margin-bottom: 24px;
+ }
+
+ .signature {
+     width: unset;
+ }
+
+ /* services */
+ #services {
+     background-color: var(--bg2);
+ }
+
+ #services .service .content {
+    padding: 32px;
+ }
+ #services .service img {
+     border-radius: 10px;
+     box-shadow: 2px 2px;
+ }
