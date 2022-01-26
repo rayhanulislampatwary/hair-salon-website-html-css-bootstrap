@@ -169,3 +169,16 @@ body {
 #milestone p {
     font-size: 19px;
 }
+
+/* feature */
+.feature {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.feature .icon-feature {
+    font-size: 25px;
+    color: var(--brand);
+    line-height: 1;
+    margin-right: 15px;
+}
