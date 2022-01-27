@@ -11,6 +11,7 @@
 a {
     color:var(--body);
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 a:hover {
@@ -171,6 +172,9 @@ body {
 }
 
 /* feature */
+#features {
+    background-color: var(--bg2);
+}
 .feature {
     display: flex;
     padding-bottom: 20px;
@@ -181,4 +185,75 @@ body {
     color: var(--brand);
     line-height: 1;
     margin-right: 15px;
+}
+
+/* team */
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+.team-member {
+    position: relative;
+
+}
+
+.team-member .social-links {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .social-links {
+    opacity: 1;
+    bottom: 30px; 
+}
+
+.team-mates {
+    border-radius: 10px;
+     box-shadow: 2px 2px;
+}
+
+/* reviews */
+#reviews {
+    background-color: var(--bg2);
+    
+}
+
+.review {
+    padding: 22px;
+    background-color: var(--bg1);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+.review .icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brand);
+    border-radius: 100px;
+    color: var(--bg1);
+    position: absolute;
+    right: 20px;
+}
+.review img {
+    width: 70px;
+    border-radius: 10px 40px;
+    height: 70px;
 }
