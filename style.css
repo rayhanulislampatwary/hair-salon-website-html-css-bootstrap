@@ -257,3 +257,30 @@ body {
     border-radius: 10px 40px;
     height: 70px;
 }
+
+#booking {
+    background: linear-gradient(to right ,#1B1F34 ,rgba(27, 31, 52, 0.1)),url(img/cover_2.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+#booking form {
+    background-color:var(--bg1) ;
+    padding: 30px;
+}
+
+#booking form .form-control {
+    background-color: var(--bg2);
+    margin-top: 15px;
+    border-color: var(--bg2);
+    color: var(--brand);
+}
+
+#booking form input {
+    height: 50px;
+}
+
+#booking form .form-control:focus{
+    box-shadow: none;
+    border-left-color: var(--brand);
+}
